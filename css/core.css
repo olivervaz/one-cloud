@@ -1,0 +1,39 @@
+/* core.css */
+body {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.section {
+    padding: 150px 0 100px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1175px;
+}
+
+.title {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title--white {
+    color: #ffffff;
+}
+
+.text {
+    color: #696969;
+    line-height: 20px;
+}
+
+.title-article {
+
+}
+
+.title-article::after {
+    content: ''
+}
