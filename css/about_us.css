@@ -21,7 +21,6 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: 1;
     color: #ffffff;
     padding: 50px 0;
 }
@@ -34,7 +33,6 @@
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: -1;
     }
 
     .our-numbers-wrap {
@@ -45,6 +43,7 @@
             display: inline-block;
             width: 25%;
             text-align: center;
+            position: relative;
         }
 
         .our-numbers-number {
