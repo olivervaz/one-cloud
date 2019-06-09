@@ -1,0 +1,124 @@
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    opacity: .7;
+    padding: 1% 0;
+}
+
+.header-logo-main {
+    float: left;
+}
+
+.header-nav {
+    float: right;
+    width: 70%;
+    padding: 2%;
+    text-align: right;
+}
+
+.header-nav a {
+    padding: 2% 2.4%;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-nav-link:hover::before {
+    content: '';
+    border-right: 3px solid #0075d0;
+    padding: 1px;
+}
+
+.header-nav-icon-cart {
+    background-image: url("../icons/icon-header-cart.png");
+
+}
+
+.header-nav-icon-search {
+    background-image: url("../icons/icon-header-search.png");
+}
+
+.container.section-main {
+    margin-top: 20%;
+}
+
+.section-main-slogan {
+    background-image: url("../image/img-header-bg-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section-main-slogan h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-main-slogan h2 {
+    font-size: 28px;
+}
+
+.section-main-slogan-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: 5%;
+}
+
+.section-main-slogan-scroll-btn {
+    margin-top: 10%;
+}
+
+.section-main-slogan-scroll-btn-circle,
+.section-main-slogan-scroll-btn-circle:after {
+    content: '';
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    opacity: .4;
+}
+
+.section-main-slogan-scroll-btn-circle {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+}
+
+.section-main-slogan-scroll-btn-circle:after,
+.section-main-slogan-scroll-btn-circle-arror {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section-main-slogan-scroll-btn-circle:after {
+    width: 80%;
+    height: 80%;
+}
+
+.section-main-slogan-scroll-btn-circle-arror {
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 40%;
+    height: 40%;
+    top: -10%;
+    opacity: 1;
+    transform: rotate(45deg);
+}
