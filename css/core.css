@@ -54,3 +54,9 @@ img {
 .title-article::after {
     content: ''
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
