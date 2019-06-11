@@ -9,7 +9,7 @@
 	margin: 0 auto;
 }
 
-.social_networks_links_description_wrap >div {
+.social_networks_links_description_wrap > div {
 	width: 15%;
 	display: inline-block;
 	margin-left: 8%;
@@ -27,7 +27,7 @@
 	text-align: center;
 }
 
-.footer_info>div {
+.footer_info > div {
 	display: inline-block;
 	width: 22%;
 	vertical-align: top;
@@ -44,10 +44,11 @@
 	position: relative;
 }
 
-.footer_info >div {
+.footer_info > div {
 	text-align: left;
 
 }
+
 .name_futer_menu:after {
 	content: ' ';
 	position: absolute;
@@ -68,7 +69,7 @@
 	padding-top: 10%;
 }
 
-.phone_image, .phone_text,.mail_image,.mail_icon_text{
+.phone_image, .phone_text, .mail_image, .mail_icon_text {
 	display: inline-block;
 }
 
