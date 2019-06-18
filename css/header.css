@@ -1,6 +1,7 @@
 header {
     width: 100%;
     position: fixed;
+    z-index: 3;
     background-color: #ffffff;
     opacity: .7;
     padding: 1% 0;
