@@ -1,3 +1,7 @@
+footer * img,
+.social_networks_section * img {
+	width: auto;
+}
 
 .social_networks_section {
 	background-image: url("../img/black_footer.png");
