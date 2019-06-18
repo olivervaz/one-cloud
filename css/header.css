@@ -6,19 +6,18 @@ header {
     padding: 1% 0;
 }
 
-.header-logo-main {
+.header-logo {
     float: left;
 }
 
 .header-nav {
     float: right;
     width: 70%;
-    padding: 2%;
     text-align: right;
 }
 
 .header-nav a {
-    padding: 2% 2.4%;
+    padding: 2.5%;
     color: #000000;
     text-decoration: none;
     font-size: 14px;
@@ -26,17 +25,22 @@ header {
     text-transform: uppercase;
     background-repeat: no-repeat;
     background-position: center;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-nav-link:before {
+    content: '';
+    border-right: 3px solid transparent
 }
 
 .header-nav-link:hover::before {
-    content: '';
     border-right: 3px solid #0075d0;
-    padding: 1px;
 }
 
 .header-nav-icon-cart {
     background-image: url("../icons/icon-header-cart.png");
-
 }
 
 .header-nav-icon-search {
@@ -68,7 +72,7 @@ header {
     font-size: 28px;
 }
 
-.section-main-slogan-btn {
+.btn-transparent {
     width: 150px;
     height: 50px;
     border-radius: 20px;
