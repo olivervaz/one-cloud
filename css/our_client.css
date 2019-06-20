@@ -1,0 +1,50 @@
+.our-clients-dots {
+    text-align: center;
+}
+
+.our-clients-dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c2c2c2;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.our-clients-dot-selected {
+    border: 1px solid #252525;
+}
+
+.our-clients-partners {
+    font-size: 0;
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+.our-clients-partners-item {
+    margin-right: 6%;
+    display: inline-block;
+    width: 20%;
+    height: 90px;
+    border: 1px solid #dfdfdf;
+}
+
+.our-clients-partners-item:last-child {
+    margin-right: 0;
+}
+
+.partners-icon-graf-art {
+    background: url(../img/icons/graf-art-logo.png) no-repeat 50%;
+}
+
+.partners-icon-bee-design {
+    background: url(../img/icons/bee-design-logo.png) no-repeat 50%;
+}
+
+.partners-icon-the-next {
+    background: url(../img/icons/ice-pen-logo.png) no-repeat 50%;
+}
+
+.partners-icon-ice-pen {
+    background: url(../img/icons/the-next-logo.png) no-repeat 50%;
+}

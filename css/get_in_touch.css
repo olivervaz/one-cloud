@@ -1,0 +1,45 @@
+.get-in-touch-form-wrapper {
+    font-family:  'Roboto', sans-serif;
+}
+
+.form-field {
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border: 1px solid #c1c1c1;
+    color: #5a5a5a;
+}
+
+.form-user-name {
+    width: 580px;
+    float: left;
+}
+
+.form-user-email {
+    width: 580px;
+    float: right;
+}
+
+.form-user-message {
+    margin-top: 15px;
+    width: 1175px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-button {
+    margin-top: 15px;
+}
+
+button[type="submit"] {
+    display: block;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid #c1c1c1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 30px;
+    margin: 30px auto 0;
+}
+
+
+
