@@ -16,23 +16,23 @@
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link href="css/feature_posts.css" rel="stylesheet">
-	  <link href="css/footer.css" rel="stylesheet">
+	<link href="css/footer.css" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="container">
-        <div class="header-logo">
+        <div class="header-logo" id="header">
             <img src="./icons/icon-logo-main.png" alt="" class="header-logo-main">
         </div>
         <nav class="header-nav">
-            <a href="#" class="header-nav-link">Home</a>
+            <a href="#header" class="header-nav-link">Home</a>
             <a href="#about-us" class="header-nav-link">About us</a>
             <a href="#services" class="header-nav-link">Services</a>
             <a href="#porfolior" class="header-nav-link">Porfolior</a>
             <a href="#blog" class="header-nav-link">Blog</a>
             <a href="#contact" class="header-nav-link">Contact</a>
             <a href="#cart" class="header-nav-icon-cart"></a>
-            <a href="search" class="header-nav-icon-search"></a>
+            <a href="#search" class="header-nav-icon-search"></a>
         </nav>
     </div>
 </header>
@@ -41,12 +41,12 @@
         <h1>Let us change the world</h1>
         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
         <button class="btn-transparent">Full view</button>
-        <div class="section-main-slogan-scroll-btn">
+        <a href="#contact" class="section-main-slogan-scroll-btn">
             <div class="section-main-slogan-scroll-btn-circle">
-                <a href="#contact" class="section-main-slogan-scroll-btn-circle-arror">
-                </a>
+                <div class="section-main-slogan-scroll-btn-circle-arror">
+                </div>
             </div>
-        </div>
+        </a>
     </div>
 </section>
 <!--    end of header-->
@@ -56,7 +56,7 @@
                 <div class="services-text-wrapper">
                     <h2 class="section-desc-title">
                         Our services
-                    </h1>
+                    </h2>
                     <p class="section-desc-text">
                             Awesome services our team can offer. Lorem Ipsum passages, and <br> 
                             more recently with desktop publishing software like OneCloud                        
@@ -112,7 +112,7 @@
         </section>
     <!-- end our services -->
 <!--portfolio-->
-<section class="section-portfolio">
+<section class="section-portfolio" id="porfolior">
     <section class="section-portfolio-header">
         <div class="section-desc-wrap">
             <h2 class="section-desc-title section-desc-title--white">Portfolio</h2>
@@ -150,7 +150,7 @@
 </section>
 <!--end porfolio-->
 <!-- testimonials-->
-<section class="section section--secondary">
+<section class="section section--secondary" id="services">
 	<div class="container">
 		<div class="section-desc-wrap">
 			<h2 class="section-desc-title">Testimonials</h2>
@@ -208,7 +208,7 @@
 </section>
 <!-- end testimonials-->
 <!-- about us-->
-<section class="section">
+<section class="section" id="about-us">
 	<div class="container">
 		<div class="section-desc-wrap">
 			<h2 class="section-desc-title">About us</h2>
@@ -375,7 +375,7 @@
     </section>
     <!-- end our clients -->
 <!--section feature posts-->
-<section class="section section-feature-posts">
+<section class="section section-feature-posts" id="blog">
 	<div class="container">
 		<div class="section-desc-wrap">
 			<h2 class="section-desc-title feature_posts-title">Feature posts</h2>
@@ -478,7 +478,7 @@
         </div>
     </section>
     <!-- end get in touch -->
-<footer class="footer">
+<footer class="footer" id="contact">
 	<div class="container footer_info">
 		<div class="footer_info_contacts">
 			<p class="name_futer_menu">Contact</p>
