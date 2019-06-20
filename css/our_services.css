@@ -1,0 +1,78 @@
+.services-text-wrapper {
+    text-align: center;
+}
+
+.services-icons {
+    font-size: 0;
+    padding-top: 95px;
+}
+
+.services-icons-item {
+    display: inline-block;
+    width: 16.6%;
+}
+
+.services-icons-item-icon {
+    width: 124px;
+    height: 124px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    box-shadow: 0 6px 0px #bebebe;
+}
+
+.services-icons-item-icon:first-child {
+    margin: 0 auto;
+}
+
+.services-icons-img {
+    position: relative;
+    width: auto;
+}
+
+.services-icon-woocom {
+    background: url(/img/icons/icon-woocommerce.png) no-repeat 50%;
+    top: 35px;
+    left: 23px;
+}
+
+.services-icon-piper {
+    background: url(/img/icons/icon-pied-piper.png) no-repeat 50%;
+    top: 25px;
+    left: 20px;
+}
+
+.services-icon-wordpress {
+    background: url(/img/icons/icon-wordpress.png) no-repeat 50%;
+    top: 30px;
+    left: 28px;
+}
+
+.services-icon-cloudmap {
+    background: url(/img/icons/icon-compass.png) no-repeat 50%;
+    top: 35px;
+    left: 33px;
+}
+
+.services-icon-coding {
+    background: url(/img/icons/icon-html5.png) no-repeat 50%;
+    top: 35px;
+    left: 35px;
+}
+
+.services-icon-photographer {
+    background: url(/img/icons/icon-camera-retro.png) no-repeat 50%;
+    top: 33px;
+    left: 28px;
+}
+
+.services-icons-item-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.service-selected {
+    color: #0075d0;
+}
