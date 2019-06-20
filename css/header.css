@@ -2,9 +2,9 @@ header {
     width: 100%;
     position: fixed;
     z-index: 3;
-    background-color: #ffffff;
-    opacity: .7;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 1% 0;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 darkgrey;
 }
 
 .header-logo {
@@ -26,7 +26,6 @@ header {
     text-transform: uppercase;
     background-repeat: no-repeat;
     background-position: center;
-
     display: inline-block;
     vertical-align: middle;
 }
@@ -85,6 +84,7 @@ header {
 
 .section-main-slogan-scroll-btn {
     margin-top: 10%;
+    display: block;
 }
 
 .section-main-slogan-scroll-btn-circle,
@@ -101,6 +101,7 @@ header {
     height: 40px;
     margin: 0;
     position: relative;
+    cursor: pointer;
 }
 
 .section-main-slogan-scroll-btn-circle:after,
