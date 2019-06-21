@@ -1,4 +1,7 @@
 /* core.css */
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
