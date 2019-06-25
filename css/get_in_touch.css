@@ -10,18 +10,18 @@
 }
 
 .form-user-name {
-    width: 580px;
+    width: 49%;
     float: left;
 }
 
 .form-user-email {
-    width: 580px;
+    width: 49%;
     float: right;
 }
 
 .form-user-message {
     margin-top: 15px;
-    width: 1175px;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
