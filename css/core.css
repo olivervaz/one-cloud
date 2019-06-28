@@ -19,7 +19,7 @@ img {
 
 .container {
     margin: 0 auto;
-    width: 1175px;
+    max-width: 1175px;
 }
 
 .section-desc-wrap {
