@@ -80,3 +80,32 @@
 .our-numbers-icon-love {
     background-position: -894px 4px;
 }
+
+@media screen and (max-width: 1024px) {
+    .our-numbers-wrap {
+        margin-top: -20px;
+    }
+
+    .our-numbers-wrap li {
+        width: 50%;
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    .about-us-articles li {
+        width: 100%;
+    }
+
+    .about-us-articles li:not(:first-child) .section-article-title {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .our-numbers-wrap li {
+        width: 100%;
+    }
+
+}
