@@ -1,5 +1,5 @@
 .section-portfolio-header {
-    background-image: url("../image/bg-portfolio-headr.png");
+    background-image: url("../assets/img/portfolio/bg-portfolio-headr.png");
     background-size: cover;
     padding-top: 10%;
 }
@@ -40,7 +40,7 @@
     background-color: #0075d0;
     width: 74px;
     height: 74px;
-    background-image: url(../icons/icon-portfolio-hover.png);
+    background-image: url(../assets/icons/icon-portfolio-hover.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;

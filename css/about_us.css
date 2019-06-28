@@ -1,82 +1,82 @@
 .about-us-articles {
-	margin: 0 -15px;
+    margin: 0 -15px;
 
 }
 
 .about-us-articles li {
-	float: left;
-	width: 33.33%;
-	box-sizing: border-box;
-	padding: 0 15px;
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 15px;
 }
 
 .about-us-articles p {
-	color: #696969;
-	font-weight: 400;
-	line-height: 20px;
+    color: #696969;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .our-numbers {
-	background-image: url("../img/bg/our_numbers.png");
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	color: #ffffff;
-	padding: 50px 0;
+    background-image: url("../assets/img/bg/our_numbers.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #ffffff;
+    padding: 50px 0;
 }
 
 .our-numbers::before {
-	content: "";
-	background-color: rgba(2, 116, 188, 0.58);
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+    content: "";
+    background-color: rgba(2, 116, 188, 0.58);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .our-numbers-wrap {
-	font-size: 0;
+    font-size: 0;
 }
 
 .our-numbers-wrap li {
-	display: inline-block;
-	width: 25%;
-	text-align: center;
-	position: relative;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    position: relative;
 }
 
 .our-numbers-number {
-	font-size: 50px;
-	font-weight: 700;
-	line-height: 90px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 90px;
 }
 
 .our-numbers-title {
-	font-size: 19px;
-	font-weight: 500;
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .our-numbers-icons {
-	background-image: url("../img/icons/our_numbers.png");
-	width: 60px;
-	height: 60px;
-	background-repeat: no-repeat;
-	margin: 0 auto;
+    background-image: url("../assets/icons/our_numbers.png");
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 .our-numbers-icon-history {
-	background-position: 5px 4px;
+    background-position: 5px 4px;
 }
 
 .our-numbers-icon-gear {
-	background-position: -295px 4px;
+    background-position: -295px 4px;
 }
 
 .our-numbers-icon-group {
-	background-position: -592px 4px;
+    background-position: -592px 4px;
 }
 
 .our-numbers-icon-love {
-	background-position: -894px 4px;
+    background-position: -894px 4px;
 }

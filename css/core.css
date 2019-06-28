@@ -47,7 +47,7 @@ img {
     color: #6e6e6e;
 }
 
-.section-desc-text--white{
+.section-desc-text--white {
     color: white;
 }
 
@@ -80,7 +80,7 @@ img {
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }

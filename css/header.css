@@ -40,11 +40,11 @@ header {
 }
 
 .header-nav-icon-cart {
-    background-image: url("../icons/icon-header-cart.png");
+    background-image: url("../assets/icons/icon-header-cart.png");
 }
 
 .header-nav-icon-search {
-    background-image: url("../icons/icon-header-search.png");
+    background-image: url("../assets/icons/icon-header-search.png");
 }
 
 .container.section-main {
@@ -52,7 +52,7 @@ header {
 }
 
 .section-main-slogan {
-    background-image: url("../image/img-header-bg-1.png");
+    background-image: url("../assets/img/header/img-header-bg-1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
