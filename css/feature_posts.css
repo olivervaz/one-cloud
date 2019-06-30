@@ -58,3 +58,99 @@
     border-left: 6px solid #2b75c9;
 
 }
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .posts_block:nth-child(1),
+    .posts_block:nth-child(6){
+        margin-bottom: 1%;
+    }
+    .posts_block {
+        width: 48%;
+    }
+
+    .see_more {
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    .see_more::before {
+        top: 44%;
+        right: 70.5%;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    .posts_block:nth-child(1),
+    .posts_block:nth-child(6){
+        margin-bottom: 1%;
+    }
+
+    .posts_block {
+        width: 48%;
+    }
+
+    .see_more {
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    .see_more::before {
+        top: 44%;
+        right: 70.5%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .posts_block {
+        width: 100%;
+    }
+
+    .see_more {
+        padding-top: 10%;
+        padding-bottom: 3%;
+    }
+
+    .see_more::before {
+        top: 63%;
+        right: 77.5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .posts_block {
+        width: 100%;
+    }
+
+    .see_more {
+        padding-top: 10%;
+        padding-bottom: 3%;
+    }
+
+    .see_more::before {
+        top: 63%;
+        right: 77.5%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .posts_block {
+        width: 100%;
+    }
+
+    .see_more {
+        padding-top: 10%;
+        padding-bottom: 3%;
+    }
+
+    .see_more::before {
+        top: 60%;
+        right: 68.5%;
+    }
+}
