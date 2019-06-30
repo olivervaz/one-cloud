@@ -15,7 +15,16 @@ footer * img,
 
 .social_networks_links_description_wrap > div {
     width: 15%;
+    height: 10%;
     display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 500%;
+    position: relative;
+    box-shadow: inset 0px 0px 10px;
+    line-height: 1em;
 }
 
 .social_networks_links_description_wrap > div:not(:first-child) {
@@ -25,14 +34,6 @@ footer * img,
 
 .facebook {
     background: #0075D0;
-}
-
-.round {
-    height: 72px;
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-    line-height: 5em;
-    text-align: center;
 }
 
 .footer_info > div {
@@ -172,14 +173,8 @@ footer * img,
     }
 
     .social_networks_links_description_wrap > div {
-        width: 32%;
         margin-left: 8%;
-    }
-
-    .round {
-        height: 89px;
-        line-height: 6em;
-        margin-bottom: 3%;
+        margin-bottom: 5%;
     }
 
     .footer_info > div {
@@ -209,14 +204,11 @@ footer * img,
 
     .social_networks_links_description_wrap > div {
         width: 32%;
+        height: 32%;
         margin-left: 8%;
+        margin-bottom: 5%;
     }
 
-    .round {
-        height: 89px;
-        line-height: 6em;
-        margin-bottom: 3%;
-    }
 
     .footer_info > div {
         width: 83%;
@@ -246,13 +238,9 @@ footer * img,
 
     .social_networks_links_description_wrap > div {
         width: 32%;
+        height: 32%;
         margin-left: 8%;
-    }
-
-    .round {
-        height: 67px;
-        line-height: 4em;
-        margin-bottom: 3%;
+        margin-bottom: 5%;
     }
 
     .footer_info > div {
