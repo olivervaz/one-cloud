@@ -38,10 +38,10 @@
 .section-portfolio-gallery-block-icon {
     position: absolute;
     background-color: #0075d0;
-    width: 74px;
-    height: 74px;
+    width: 25%;
+    height: 22%;
     background-image: url(../assets/icons/icon-portfolio-hover.png);
-    background-size: auto;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
     top: 0;
@@ -60,4 +60,28 @@
 .section-portfolio-gallery-block:hover
 .section-portfolio-gallery-block-icon {
     display: block;
+}
+
+
+@media screen and (max-width: 720px) {
+    .section-portfolio-gallery-block:nth-child(odd) {
+        display: none;
+    }
+
+
+    .section-portfolio-gallery-block {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .section-portfolio-gallery-block:nth-child(-n+2) {
+        display: none;
+    }
+
+
+    .section-portfolio-gallery-block {
+        width: 100%;
+    }
 }
